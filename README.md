@@ -3,7 +3,7 @@ debate-reactions
 
 This is a repo of what I'm using to parse and display data from React Labs.
 
-This is probably not useful to anyone, but I'm putting it up here because I wrote my first python scripts that are for my own project (and not just a practice exersize) and I am SO excited about that, and because I'm learning python with a lot of awesome women in Shannon Turner's #hearmecode class. So if anyone also learning python wants to talk about unix epoch seconds timestamps or cleaning up/merging csv files, let's do it! 
+This is probably not useful to anyone, but I'm putting it up here because I wrote my first python scripts that are for my own project (and not just a practice exercise) and I am SO excited about that, and because I'm learning python with a lot of awesome women in Shannon Turner's #hearmecode class. So if anyone also learning python wants to talk about unix epoch seconds timestamps or cleaning up/merging csv files, let's do it! 
 
 We partnered with React Labs for a Maryland governor's race debate, and asked readers to tap their reactions into their smartphones while the debate was going on. 
 
@@ -17,11 +17,11 @@ There was live charting of all the participants, and afterwards a json was expor
 
 Here's my to-do list and the python/csv files I made to accomplish them: 
 
-I have a lot of .json files that I need to turn into .csv files
-	done: all-responses.csv. I had to clean it from json to csv and then add columns for target (candidate) and reaction button. 
-I have to get a csv-style list of every unix second from the beginning of the debate to the end
-	done: count-in-unix-epoch.py, copy/pasted into all-epoch-seconds-transcript.csv
-I have to change all the date/time marks in the transcript to unix epoch seconds
-	done: timestamp-to-epoch.py took the timestamps in timestamps-to-unix.csv and created their equivalients in epoch seconds. Then, I copy/pasted the epoch seconds into my workbook. 
-I have to match every timestamped reaction to the (again, unix second) time it occurred during the debate
-	done: with compare-csvs-and-append-matches.py, which put data into outFile.py
+- I have a lot of .json files that I need to turn into .csv files
+	-done: all-responses.csv. I had to clean it from json to csv and then add columns for target (candidate) and reaction button. 
+- I have to get a csv-style list of every unix second from the beginning of the debate to the end
+	-done: count-in-unix-epoch.py, copy/pasted into all-epoch-seconds-transcript.csv
+- I have to change all the date/time marks in the transcript to unix epoch seconds
+	-done: timestamp-to-epoch.py took the timestamps in timestamps-to-unix.csv and created their equivalients in epoch seconds. Then, I copy/pasted the epoch seconds into my workbook. 
+- I have to match every timestamped reaction to the (again, unix second) time it occurred during the debate
+	-done: with compare-csvs-and-append-matches.py, which put data into outFile.py
