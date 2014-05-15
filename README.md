@@ -19,16 +19,16 @@ Here's my to-do list and the python/csv files I made to accomplish them:
 
 - I have a lot of .json files that I need to turn into .csv files
 	
-	done: all-responses.csv. I had to clean it from json to csv and then add columns for target (candidate) and reaction button. 
+	*done:* all-responses.csv. I had to clean it from json to csv and then add columns for target (candidate) and reaction button. 
 
 - I have to get a csv-style list of every unix second from the beginning of the debate to the end
 
-	done: count-in-unix-epoch.py, copy/pasted into all-epoch-seconds-transcript.csv
+	*done:* count-in-unix-epoch.py, copy/pasted into all-epoch-seconds-transcript.csv
 
 - I have to change all the date/time marks in the transcript to unix epoch seconds
 
-	done: timestamp-to-epoch.py took the timestamps in timestamps-to-unix.csv and created their equivalients in epoch seconds. Then, I copy/pasted the epoch seconds into my workbook. 
+	*done:* timestamp-to-epoch.py took the timestamps in timestamps-to-unix.csv and created their equivalients in epoch seconds. Then, I copy/pasted the epoch seconds into my workbook. 
 
 - I have to match every timestamped reaction to the (again, unix second) time it occurred during the debate
 
-	done: with compare-csvs-and-append-matches.py, which put data into outFile.py
+	*done:* with compare-csvs-and-append-matches.py, which put data into outFile.py
