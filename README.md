@@ -3,9 +3,13 @@ debate-reactions
 
 This is a repo of what I'm using to parse and display data from React Labs.
 
-This is probably not useful to anyone, but I'm putting it up here because I wrote my first python scripts that are for my own project (and not just a practice exercise) and I am SO excited about that, and because I'm learning python with a lot of awesome women in Shannon Turner's #hearmecode class. So if anyone also learning python wants to talk about unix epoch seconds timestamps or cleaning up/merging csv files, let's do it! 
+This is probably not useful to anyone as is, but I'm putting it up here because I wrote my first python scripts that are for my own project  and I am so excited about that, and because I'm learning python with a lot of awesome women in Shannon Turner's #hearmecode class. So if anyone also learning python with Shannon wants to talk about unix epoch time  or cleaning up/merging csv files, let's do it! 
 
-We partnered with React Labs for a Maryland governor's race debate, and asked readers to tap their reactions into their smartphones while the debate was going on. 
+At the Post, we partnered with React Labs for a Maryland governor's race debate, and asked readers to tap their reactions into their smartphones while the debate was going on. 
+
+See here: How to use your smartphone as a real-time reaction tool for Md. governor’s race debate
+
+http://www.washingtonpost.com/blogs/ask-the-post/wp/2014/05/06/how-to-use-your-smartphone-as-a-real-time-reaction-tool-for-md-governors-race-debate/
 
 They could choose the candidate who was speaking, and then choose a reaction: Truth, Fact-check!, I support and I oppose. 
 
