@@ -17,7 +17,7 @@
 
 # WOOOOOO. I am so happy. 
 
-# That being said, I couldn't tell you for the life of me why the masterlist part works. Just does.
+# That being said, I couldn't tell you why the masterlist part works. Just does.
 
 import csv
 
